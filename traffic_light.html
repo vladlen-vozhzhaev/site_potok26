@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Traffic light</title>
+		<!-- Коммент -->
+		<style>
+			.container{
+				width: 300px; /* Коммент */
+				background: black;
+				margin: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border: 4px solid gray;
+			}
+			.red-block, .yellow-block, .green-block{
+				width: 150px;
+			 	height: 150px;
+				background: gray;
+				margin: auto;
+				cursor: pointer;
+				border-radius: 75px;
+				margin-bottom: 10px;
+				border: 2px solid silver;
+				box-shadow: inset 0 0 10px 5px rgb(0,0,0, 0.5);
+			}
+			.red-block:hover{
+				background: red;
+			}
+			.yellow-block:hover{
+				background: yellow;
+			}
+			.green-block:hover{
+				background: lime;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="red-block"></div>
+			<div class="yellow-block"></div>
+			<div class="green-block"></div>
+		</div>
+	</body>
+</html>
